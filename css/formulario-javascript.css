@@ -1,0 +1,86 @@
+html {
+    font-family: 'Pathway Extreme', sans-serif;
+    font-size: 62.5%;
+}
+
+#formulario-01 {
+    display: block;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+#formulario-02 {
+    display: block;
+    text-align: center;
+    margin-top: 10rem;
+    
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+form {
+    background-color: #ddd;
+    padding: 20px;
+    display: block;
+    margin: 20px auto;
+}
+
+input {
+    width: 40%;
+    padding: 1rem 2rem;
+}
+
+input, button {
+    margin: 2rem;
+    font-size: 1.6rem;
+    
+}
+
+h2 {
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    font-size: 2.5rem;
+}
+
+
+.identacao  {
+    margin-inline: 1rem;
+}
+
+button {
+    border: 0 none;
+    border-radius: 2rem;
+    color: #fff;
+    background-color: #2121be;
+    width: 10rem;
+    padding: 1rem 2rem;
+    cursor: pointer;
+}
+
+button:hover {
+    text-decoration: none;
+    color: #aa0243;
+}
+
+.mensagem {
+    font-size: 2rem;
+    text-align: center;
+    padding: 2rem;
+    position: relative;
+    top: -5px;
+}
+
+#resultado {
+    font-size: 2rem;
+    text-align: center;
+    padding: 2rem;
+    position: relative;
+    top: -365px;
+}
+
+.erro {
+    border-color: #f00;
+}

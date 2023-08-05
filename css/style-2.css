@@ -1,0 +1,410 @@
+
+body {
+    display: block;
+    float: left;
+    width: 70%;
+    font-size: 62.5%;
+    font-family: 'open sans', sans-serif;
+
+}
+
+.main-container {
+    display: block;
+    max-width: 100vw;
+    width: 0 auto;
+    padding: 20px;
+}
+
+header { 
+    display: block;
+    float: left;
+    width: 1315px;
+    height: 100px;
+    border-bottom: 1px solid #254159 ;
+}
+
+p {
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-size: 2.4rem;
+    color: #254159;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #254159;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.8rem;
+    color: #254159;
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-size: 1.6rem;
+    color: #254159;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+section {
+    display: block;
+    font-size: 1.5rem;
+    float: left;
+    padding: 20px;
+    width: 250%;
+}
+
+section nav {
+    display: block;
+    float: left;
+    width: 30%;
+}
+
+nav a {
+    text-decoration: none;
+    color: #254159;
+}
+
+nav li {
+    margin: 1px 20px 1px 0;
+    padding: 10px;
+    background: #bfd3e3;
+    position: relative;
+    right: 50px;
+}
+
+nav li:hover {
+    background-color: #dfdfdf;
+}
+
+section article {
+    display: block;
+    float: left;
+    width: 70%;
+}
+
+ol li {
+    font-size: 1.3rem;
+    color: #454545;
+}
+
+.cloud {
+    position: relative;
+    bottom: 0;
+    top: 20px;
+}
+
+.li-1 {
+    padding: 15px;
+    font-size: 1rem;
+}
+
+.li-2 {
+    padding: 15px;
+    font-size: 1rem;
+}
+
+.li-3 {
+    padding: 15px;
+    font-size: 1rem;
+}
+
+footer p {
+    font-size: 1.4rem;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: -10px;
+}
+
+footer small {
+    font-size: 80%;
+    display: block;
+}
+
+.cognito {
+    height: 400px !important;
+    overflow: hidden !important;
+}
+
+@media screen and (min-width:769px) {
+
+    section {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .atp {
+        width: 60%;
+        top: 0px;
+        position: relative;
+        left: -20px;
+    }
+
+    article p {
+        font-size: 1.5rem;
+    }
+
+    section article {
+        width: 100%;
+    }
+
+    .li-1, .li-2, .li-3 {
+        position: relative;
+        left: -10px;
+        font-size: 2rem;
+    } 
+
+    footer {
+        width: 270% !important;
+        height: 120px !important;
+        position: relative;
+        top: 200px;
+        left: -20px;
+    }
+    footer p {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    section p {
+        width: auto !important;
+        font-size: 2rem;
+    }
+
+    #tenho-interesse {
+        position: relative !important;
+        left: 100px !important;
+    }
+    
+    #tenho-interesse h1 {
+        position: relative;
+        left: 250px;
+    }
+    
+    #tenho-interesse p {
+        width: 27%  !important;
+        position: relative;
+        left: 250px;
+    }
+
+    nav li {
+        width: 50%;
+        position: relative;
+        top: 0;
+        bottom: 0;
+        left: -40px;
+    }
+}
+
+@media screen and (max-width:425px) {
+
+    .atp {
+        width: 60%;
+        top: 240px;
+        position: relative;
+        left: 130px;
+    }
+
+    article p {
+        font-size: 2.5rem !important;
+
+    }
+
+    .li-1, .li-2, .li-3 {
+        position: relative;
+        left: -10px;
+        font-size: 2rem;
+    } 
+
+    section p {
+        width: 10%;
+        padding: 0;
+        font-size: 1rem;
+    }
+
+    nav li {
+        font-size: 2rem;
+        position: relative;
+        right: 180px;
+    }
+    
+    section li {
+        width: 100%;
+        font-size: 2rem;
+    }
+    
+    #tenho-interesse {
+        position: relative !important;
+        top: 170px;
+        left: 80px !important;
+    }
+
+    #tenho-interesse h1 {
+        position: relative;
+        left: 200px;
+    }
+    
+    #tenho-interesse p {
+        width: 67%  !important;
+        position: relative;
+        left: 200px;
+    }
+
+    footer {
+        width: 400% !important;
+        height: 120px !important;
+        position: relative;
+        top: 200px;
+        left: -20px;
+    }
+    footer p {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+
+}
+
+@media screen and (max-width: 375px) {
+
+    .atp {
+        width: 100%;
+        padding: 10px;
+        top: 240px;
+        position: relative;
+        left: 180px;
+    }
+
+    article p {
+        font-size: 2.5rem !important;
+
+    }
+
+    nav li {
+        position: relative;
+        left: -40px;
+        width: 100%;
+    }
+      
+    .li-1, .li-2, .li-3 {
+        position: relative;
+        left: -10px;
+        font-size: 2rem;
+    } 
+    
+
+    #tenho-interesse {
+        position: relative !important;
+        top: 150px;
+        left: 80px !important;
+    }
+
+    #tenho-interesse h1 {
+        position: relative;
+        left: 200px;
+    }
+    
+    #tenho-interesse p {
+        width: 67%  !important;
+        position: relative;
+        left: 200px;
+    }
+
+    footer {
+        width: 470% !important;
+        height: 120px !important;
+        position: relative;
+        top: 200px;
+        left: -20px;
+    }
+    footer p {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+}
+
+@media screen and (max-width:320px) { 
+
+    .atp {
+        width: 100%;
+        top: 20px;
+        position: relative;
+        left: 195px !important;
+    }
+
+    .li-1, .li-2, .li-3 {
+        position: relative;
+        left: -10px;
+        font-size: 2rem;
+    } 
+
+    article p {
+        font-size: 2.5rem !important;
+        width: 50%;
+
+    }
+    footer {
+        width: 470% !important;
+        height: 120px !important;
+        position: relative;
+        top: 200px;
+        left: -40px;
+    }
+
+    footer p {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    section p {
+        width: 100% !important;
+        font-size: 2.5rem;
+        padding: 10px 20px 10px 5px;
+    }
+    
+    #tenho-interesse {
+        position: relative !important;
+        top: 150px;
+        left: 150px !important;
+    }
+
+    #tenho-interesse h1 {
+        position: relative;
+        left: 120px;
+    }
+    
+    #tenho-interesse p {
+        width: 67%  !important;
+        position: relative;
+        left: 120px;
+    }
+
+    nav li {
+        width: 115%;
+        position: relative;
+        top: 0;
+        bottom: 0;
+        left: -40px;
+    }
+
+    nav p {
+        font-size: 5px !important;
+    }
+}

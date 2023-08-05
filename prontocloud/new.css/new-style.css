@@ -1,0 +1,581 @@
+
+body {
+    display: block;
+    overflow-x: hidden;
+    float: left;
+    width: 70%;
+    font-size: 25px;
+    font-family: 'open sans', sans-serif; 
+}
+
+.main-container {
+    display: block;
+    width: 0 auto;
+    padding: 0px;
+}
+
+li {
+    position: relative;
+    top: 70px;
+}
+
+header { 
+    display: block;
+    float: left;
+    top: -9px;
+    width: 1362px;
+    height: 100px;
+    position: relative;
+    left: -27px;
+    border-bottom: 1px solid #254159 ;
+}
+
+.ip {
+    position: relative;
+    left: 30px;
+    top: 18px;
+}
+
+p {
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+
+section nav {
+    display: block;
+    float: left;
+    width: 30%;
+}
+
+nav a {
+    text-decoration: none;
+    color: #254159;
+}
+
+nav li {
+    margin: 1px 20px 1px 0;
+    padding: 10px;
+    background: #bfd3e3;
+    position: relative;
+    right: 50px;
+}
+
+nav li:hover {
+    background-color: #dfdfdf;
+}
+
+section article {
+    display: block;
+    float: left;
+    width: 70%;
+    position: relative;
+    left: 200px;
+    top: 600px;
+}
+
+ol li {
+    font-size: 1.3rem;
+    color: #454545;
+}
+
+.cloud {
+    position: relative;
+    bottom: 0;
+    top: 20px;
+    left: 30px;
+}
+
+.li-1 {
+    padding: 15px;
+    font-size: 1rem;
+}
+
+.li-2 {
+    padding: 15px;
+    font-size: 1rem;
+}
+
+.li-3 {
+    padding: 15px;
+    font-size: 1rem;
+}
+
+footer p {
+    font-size: 1.4rem;
+    color: #fff;
+    position: relative;
+    left: -100px;
+    top: -10px;
+}
+
+footer {
+    position: relative;
+    top: 10px;
+}
+
+footer small {
+    font-size: 80%;
+    display: block;
+}
+
+.cognito {
+    height: 400px !important;
+    overflow: hidden !important;
+}
+
+@media screen and (min-width:769px) {
+
+    .atp {
+        position: relative;
+        top: -50px;
+    }
+
+    section {
+        width: 100%;
+    }
+    section #banner {
+        width: 90%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .atp {
+        width: 60%;
+        top: 0px;
+        position: relative;
+        left: -20px;
+    }
+
+    article p {
+        font-size: 1.5rem;
+    }
+
+    section article {
+        width: 100%;
+    }
+
+    .li-1, .li-2, .li-3 {
+        position: relative;
+        left: -10px;
+        font-size: 2rem;
+    } 
+
+    footer {
+        width: 270% !important;
+        height: 120px !important;
+        position: relative;
+        top: 200px;
+        left: -20px;
+    }
+    footer p {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    section p {
+        width: auto !important;
+        font-size: 2rem;
+    }
+
+    #tenho-interesse {
+        position: relative !important;
+        left: 100px !important;
+    }
+    
+    #tenho-interesse h1 {
+        position: relative;
+        left: 250px;
+    }
+    
+    #tenho-interesse p {
+        width: 27%  !important;
+        position: relative;
+        left: 250px;
+    }
+
+    nav li {
+        width: 50%;
+        position: relative;
+        top: 0;
+        bottom: 0;
+        left: -40px;
+    }
+}
+
+@media screen and (max-width:425px) {
+
+    .atp {
+        width: 60%;
+        top: 240px;
+        position: relative;
+        left: 130px;
+    }
+
+    article p {
+        font-size: 2.5rem !important;
+
+    }
+
+    .li-1, .li-2, .li-3 {
+        position: relative;
+        left: -10px;
+        font-size: 2rem;
+    } 
+
+    section p {
+        width: 10%;
+        padding: 0;
+        font-size: 1rem;
+    }
+
+    nav li {
+        font-size: 2rem;
+        position: relative;
+        right: 180px;
+    }
+    
+    section li {
+        width: 100%;
+        font-size: 2rem;
+    }
+    
+    #tenho-interesse {
+        position: relative !important;
+        top: 170px;
+        left: 80px !important;
+    }
+
+    #tenho-interesse h1 {
+        position: relative;
+        left: 200px;
+    }
+    
+    #tenho-interesse p {
+        width: 67%  !important;
+        position: relative;
+        left: 200px;
+    }
+
+    footer {
+        width: 400% !important;
+        height: 120px !important;
+        position: relative;
+        top: 200px;
+        left: -20px;
+    }
+    footer p {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+
+}
+
+@media screen and (max-width: 375px) {
+
+    .atp {
+        width: 50%;
+        padding: 10px;
+        top: 240px;
+        position: relative;
+        left: 180px;
+    }
+
+   
+
+    article p {
+        font-size: 1.5rem !important;
+
+    }
+
+    nav li {
+        position: relative;
+        left: -40px;
+        width: 100%;
+    }
+      
+    .li-1, .li-2, .li-3 {
+        position: relative;
+        left: -10px;
+        font-size: 2rem;
+    } 
+    
+
+    #tenho-interesse {
+        position: relative !important;
+        top: 150px;
+        left: 80px !important;
+    }
+
+    #tenho-interesse h1 {
+        position: relative;
+        left: 200px;
+    }
+    
+    #tenho-interesse p {
+        width: 67%  !important;
+        position: relative;
+        left: 200px;
+    }
+
+    footer {
+        width: 70% !important;
+        height: 120px !important;
+        position: relative;
+        top: 200px;
+        left: -20px;
+    }
+    footer p {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+}
+
+@media screen and (max-width:720px) { 
+
+    .atp {
+        width: 50%;
+        top: 240px;
+        position: relative;
+        left: -125px !important;
+    } 
+
+    section article {
+        position: relative;
+        left: -100px;
+        top: 1100px;
+    }
+
+    .img-1 {
+        width: 330%;
+        height: 280%;
+        position: relative;
+        left: -60px !important;
+    }
+    
+    h1, h2, h3, h4 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2.0rem !important;
+        width: 250%;
+    } 
+
+    .li-1, .li-2, .li-3 {
+        width: 340%;
+        position: relative;
+        left: -30px;
+        font-size: 2rem;
+    } 
+
+    article p {
+        font-size: 1.5rem !important;
+        width: 100%;
+
+    }
+    footer {
+        width: 170% !important;
+        height: 120px !important;
+        position: relative;
+        top: 350px;
+        left:-40px;
+    }
+
+    footer p {
+        text-align: center;
+        font-size: 1.27rem;
+        position: relative;
+        left: 5px;
+    }
+
+    section p {
+        font-family: Arial, Helvetica, sans-serif;
+        width: 200% !important;
+        font-size: 1.5rem;
+        padding: 10px 20px 10px 5px;
+        position: relative;
+        top: 20px;
+    }
+    
+    #tenho-interesse {
+        position: relative !important;
+        top: 400px;
+        left: 150px !important;
+    }
+
+    #tenho-interesse h1 {
+        position: relative;
+        left: -40px;
+    }
+
+    .ty {
+        position: relative;
+        top: 50px;
+    }
+    
+    #tenho-interesse p {
+        width: 100%  !important;
+        position: relative;
+        left: -40px;
+    }
+
+    nav li {
+        width: 465%;
+        position: relative;
+        top: 0;
+        bottom: 0;
+        left: -40px;
+    }
+
+    nav p {
+        font-size: 5px !important;
+    }
+}
+
+
+#banner {
+    background-image: url('../img/banner.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    position: relative;
+    top: 93px;
+    right: 20px;
+    width: 1400px;
+    height: 120vh;
+}
+
+.legenda {
+    box-sizing: border-box;
+    position: relative;
+    top: 50px;
+    left: 840px; 
+    color: #254159 !important;
+    background-color: rgba(255, 255, 255, .6);
+    padding: 10px;
+    border-radius: 10px;
+    width: 30%;
+}
+
+.legenda h4, 
+.legenda h5 {
+    position: relative;
+    top: -90px; 
+}
+
+.button-cta {
+    display: inline;
+    background-color: orangered;
+    color: #FFF;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 4px #454545;
+    padding: 10px 15px;
+    width: auto;
+    float: right;
+    position: relative;
+    top: -50px;
+    left: -230px;
+    font-weight: 300px;
+}
+
+#saiba-mais {
+    background-color: #eaeff3 !important;
+    background-size: cover;
+    padding: 260px 250px;
+    position: relative;
+    left: -10px;
+}
+
+#saiba-mais p {
+    position: relative;
+    left: 480px !important;
+    top: -340px;
+    width: 65%;
+    display: block;
+    float: left;
+}
+
+#saiba-mais img {
+    position: relative;
+    left: -170px;
+    top: -80px;
+    width: 55%;
+    display: block;
+    float: left;
+}
+
+#saiba-mais h1{
+    position: relative;
+    left: -165px;
+    top: -100px;
+}
+
+#st {
+    background-color: #82a3a6;
+    background-size: cover;
+    width: 161%;
+    padding: 40px 20px;
+    position: relative;
+    top: -208px;
+    left: 600px;
+    float: right;
+}
+
+.new-button {
+    display: inline;
+    background-color: orangered;
+    color: #FFF;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 4px #454545;
+    padding: 10px 15px;
+    width: auto;
+    float: right;
+    position: relative;
+    top: 0px;
+    left: -930px;    
+}
+
+.cta {
+    display: inline;
+    background-color: orangered;
+    color: #FFF;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 4px #454545;
+    padding: 10px 15px;
+    width: auto;
+    float: right;
+    position: relative;
+    top: -80px;
+    left: -150px;
+}
+
+dl {
+    margin: 20px 0;
+}
+
+dt {
+    font-family: 'Open-Sans';
+    font-weight: 400; 
+}
+
+dd {
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+#tenho-interesse {
+    position: relative;
+    left: -200px;
+    top: -800px;
+
+}

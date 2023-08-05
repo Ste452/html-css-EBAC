@@ -1,0 +1,66 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-family: Arial, helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: azure;
+    overflow: overlay;
+}
+
+h1, h2, p {
+    margin-bottom: 20px;
+}
+
+div {
+    padding: 20px;
+    margin: 0;
+}
+
+.width-100 {
+    width: 100%;
+    background-color: aqua;
+    padding: 20px 0;
+    height: 400px;
+    
+}
+
+nav {
+    background-color: gray;
+    width: 20%;
+    float: left;
+    display: table;
+    height: 68vh;
+}    
+
+article {
+    background-color: ivory;
+    width: 80%; 
+    float: left;
+    box-sizing: border-box;/*considera o padding e border na largura e na altura*/
+    height: 100%;
+}
+
+.fixed-width {
+    background-color: lawngreen;
+    width: 200px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.background {
+    background-color:darkred; 
+    background-image: url(images/pattern.png);
+    background-repeat: repeat-x;
+    width: 100%;
+    height: 50vh;
+}
+
+div img {
+    width: 100%; 
+}

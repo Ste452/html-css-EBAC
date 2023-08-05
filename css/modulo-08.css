@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.center { 
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+html.body {
+    height: 100%;
+    overflow-y: hidden;
+}
+
+header {
+    padding: 20px 0;
+}
+
+.logo { 
+    width: 50%;
+}
+.menu {
+    padding-top: 30px;
+    width: 50%;
+    text-align: right;
+}
+
+.menu a {
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.Home {
+    position: fixed;
+    top: 9px;
+    left: 875px;
+    width: 25%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.Menu {
+    position: fixed;
+    top: 9px;
+    left: 960px;
+    width: 25%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.WhatNew {
+    position: fixed;
+    top: 9px;
+    left: 1040px;
+    width: 25%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+section.sobre {
+    height: calc(100px - 200px);
+    position: relative;
+}
+
+.extras {
+    position: fixed;
+    top: 120px;
+    bottom: 0;
+    left: 900px;
+    width: 1000px;
+    height: 1000px;
+    border-radius: 50%;
+    background-color: #017143;
+}
+
+a:hover {
+    color: #81d7b3;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: azure;
+}
+
+.social-midea {
+    position: absolute;
+    left: 400px;
+    top: 200px;
+}
+
+.social-midea img {
+    display: block; 
+    width: 20px;
+    margin: 20px 0;
+}
+
+.facebook {
+    width: 15px;
+}
+
+.texto-sobre {
+    margin-top: 100px;
+}
+   
+.texto-sobre h1{
+   font-size: 50px;
+}
+
+.texto-sobre p {
+   margin: 20px 0; 
+   color: black;
+   font-size: 14px;
+   font-weight: bold;
+}
+
+.texto-sobre button {
+    border: 0;
+    background: #017143;
+    border-radius: 10px;
+    color: white;
+    width: 80px;
+    height: 40px;
+    cursor: pointer;
+}
+
